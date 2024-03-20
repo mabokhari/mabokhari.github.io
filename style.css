@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif; /* default font */
+    background-color: #f0f0f0; /* background color */
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', serif; /* serif font for headings */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #000; 
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%; /* responsive images */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Unique layout for the 'My Cooking' page */
+.my-cooking h2 {
+    color: #0275d8; 
+}
+
+.my-cooking img {
+    border: 2px solid #0275d8;
+}
+
+#about-page {
+    background-color: #ffc0cb; /* Light pink background */
+}
+
+/* styles for the about page */
+#about-page h1 {
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+#about-page p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 auto 1.5em;
+}
+
+/* Styles for images on the about page */
+#about-page img {
+    display: block;
+    margin: 1em auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+
